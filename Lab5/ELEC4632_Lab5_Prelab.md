@@ -2,7 +2,6 @@
 
 Notation: $K_p$ proportional gain, $K_i$ integral gain, $h$ sampling time (0.75 s),
 $e(k) = y_{ref}(k) - y(k)$, $u(k)$ the controller output.
-Every result below is checked numerically by `ELEC4632_Lab5_Prelab_Check.m`.
 
 ## (a) ZOH equivalent of the PI controller
 
@@ -28,7 +27,7 @@ $$\boxed{G_{DT}(z) = \frac{U(z)}{E(z)} = K_p + \frac{K_i h}{z-1}}$$
 
 which is Eq. (1). The ZOH equivalent of the integrator $1/s$ is $h/(z-1)$, which is the same
 thing as the Forward Euler integrator used by the Simulink Discrete PID Controller block in
-the real-time model. `c2d(Kp + Ki/s, h, 'zoh')` returns exactly this result.
+the real-time model.
 
 ## (b) Difference equation of the PI controller
 

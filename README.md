@@ -14,9 +14,9 @@ MATLAB work for the ELEC4632 water-tank labs (system identification and control 
 - `figures/` - raw, cut-off and offset-free data, model verification
 
 ## Lab5 - Discrete-time PI control for set-point control
-- `ELEC4632_Lab5_Prelab.md` / `ELEC4632_Lab5_Prelab_Check.m` - pre-lab derivations and their numerical check
-- `ELEC4632_Lab5_Exercise.m` - system identification and PI design (Kp = 1.30, Ki = 0.045)
-- `ELEC4632_Lab5_Simulink_Design.m` / `Lab5_PI_Design.slx` - the PI loop built, tuned and simulated in Simulink
-- `ELEC4632_Lab5_RealTime_Setup.m` / `ELEC4632_Lab5_RealTime_Plot.m` - set up the real-time model and plot the real run against the simulation
+- `ELEC4632_Lab5_Prelab.md` - pre-lab derivations
+- `ELEC4632_Lab5_SysID.m` - system identification (Lab 2 procedure)
+- `Lab5_PI_Design.slx` - PI design and simulation in Simulink (Kp = 1.30, Ki = 0.045)
+- `ELEC4632_Lab5_RealTime_Plot.m` - plot the real-time run against the simulation
 
 See `Lab5/README.md` for results and run order.
